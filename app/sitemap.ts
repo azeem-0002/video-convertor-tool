@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://youtubetomp3.com"
+  const baseUrl = "https://yt2mp3cnv.com"
 
   return [
     {

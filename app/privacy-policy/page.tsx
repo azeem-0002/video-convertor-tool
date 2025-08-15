@@ -9,7 +9,7 @@ export default function PrivacyPolicyPage() {
       <div className="container mx-auto px-4 py-16 max-w-4xl">
         <div className="bg-white shadow-lg rounded-2xl p-8 border border-gray-200">
           <h1 className="text-4xl font-bold mb-4 text-gray-900">Privacy Policy</h1>
-          <p className="text-gray-500 mb-8">Effective Date: August 5, 2025</p>
+          <p className="text-gray-500 mb-8">Effective Date: August 15, 2025</p>
 
           <div className="prose prose-lg max-w-none">
             <h3 className="text-2xl font-semibold text-gray-800">1. Introduction</h3>

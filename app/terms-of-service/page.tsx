@@ -12,7 +12,7 @@ export default function TermsOfServicePage() {
             <h1 className="text-4xl font-bold text-gray-900 mb-2">
               Terms of Service
             </h1>
-            <p className="text-gray-500 mb-10">Effective Date: August 5, 2025</p>
+            <p className="text-gray-500 mb-10">Effective Date: August 15, 2025</p>
 
             <div className="prose prose-lg max-w-none text-gray-700">
               <h2 className="text-2xl font-semibold text-gray-900 mt-10 mb-4">

@@ -158,6 +158,18 @@ export default function HomePage() {
         <meta name="twitter:image" content="https://yourwebsite.com/twitter-image.jpg" />
 
         <link rel="canonical" href="https://yourwebsite.com" /> */}
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RLH717E08C"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-RLH717E08C');
+            `,
+          }}
+        />
       </Head>
 
       {/* Hero Section */}

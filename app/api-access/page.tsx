@@ -3,12 +3,25 @@ import Footer from "../components/footer"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Code, Key, Zap, Shield } from "lucide-react"
+import Head from "next/head"
 
 export default function ApiAccessPage() {
   return (
     <div className="min-h-screen bg-white">
       <Header />
-
+      <Head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RLH717E08C"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-RLH717E08C');
+            `,
+          }}
+        />
+      </Head>
       <div className="container mx-auto px-4 py-16 max-w-6xl">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold mb-4">API Access</h1>

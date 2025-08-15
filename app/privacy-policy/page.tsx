@@ -1,10 +1,24 @@
 import Header from "../components/header"
 import Footer from "../components/footer"
+import Head from "next/head";
 
 export default function PrivacyPolicyPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
+      <Head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RLH717E08C"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-RLH717E08C');
+            `,
+          }}
+        />
+      </Head>
 
       <div className="container mx-auto px-4 py-16 max-w-4xl">
         <div className="bg-white shadow-lg rounded-2xl p-8 border border-gray-200">

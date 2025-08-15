@@ -54,7 +54,7 @@ export default function Footer() {
 
           <div>
             <h3 className="font-semibold mb-4">Support</h3>
-            <p className="text-gray-400">Email: support@youtubetomp3.com</p>
+            <p className="text-gray-400">Email: yt2mp3official@gmail.com</p>
           </div>
         </div>
 

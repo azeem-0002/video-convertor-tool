@@ -130,7 +130,7 @@ export default function TermsOfServicePage() {
                 your copyrighted work has been used without authorization,
                 please contact us immediately at{" "}
                 <span className="font-medium">
-                  legal@youtubetomp3.com
+                  yt2mp3official@gmail.com
                 </span>{" "}
                 with:
               </p>

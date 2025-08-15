@@ -39,6 +39,11 @@ export default function Footer() {
                   API Access
                 </Link>
               </li>
+              <li>
+                <Link href="https://freevideodownloader.co" target="_blank" className="text-gray-400 hover:text-white transition-colors">
+              Free Video Downloader
+            </Link>
+              </li>
             </ul>
           </div>
 

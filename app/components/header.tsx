@@ -24,7 +24,11 @@ export default function Header() {
             <Link href="/api-access" className="text-gray-700 hover:text-red-600 transition-colors">
               API Access
             </Link>
-            <Link href="https://freevideodownloader.co" target="_blank" className="text-gray-700 hover:text-red-600 transition-colors">
+             <Link
+              href="https://freevideodownloader.co"
+              target="_blank"
+              className="bg-red-600 text-white px-4 py-2 rounded-lg shadow hover:bg-red-700 transition-colors"
+            >
               Free Video Downloader
             </Link>
           </nav>

@@ -12,6 +12,7 @@ import {
 import Image from "next/image"
 import Header from "./components/header"
 import Footer from "./components/footer"
+import Head from "next/head"
 
 interface ConversionResult {
   title: string
@@ -133,6 +134,31 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
       <Header />
+      <Head>
+        <title>YouTube to MP3 Converter - Fast & Free | YT2MP3CNV</title>
+        <meta name="description" content="Convert YouTube videos to high-quality 320kbps MP3 or MP4 instantly. Free, no ads, and works on all devices including iPhone, Android, PC, and Mac." />
+        <meta name="keywords" content="YouTube to MP3, YouTube MP3 converter, MP3 downloader, YT to MP3, online MP3 converter, free MP3 download, convert YouTube audio, fast MP3 conversion, YouTube songs to MP3, download music from YouTube, YouTube audio converter, YT2MP3CNV" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Yt2Mp3Cnv" />
+        <meta charSet="UTF-8" />
+        
+        {/* Open Graph Tags */}
+        {/* <meta property="og:title" content="YouTube to MP3 Converter - Free & High Quality" />
+        <meta property="og:description" content="Instantly convert YouTube videos to MP3 or MP4 with no ads. Download high-quality audio or video on any device." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://yourwebsite.com" />
+        <meta property="og:image" content="https://yourwebsite.com/og-image.jpg" />
+        <meta property="og:site_name" content="Your Brand Name" /> */}
+
+        {/* Twitter Card Tags */}
+        {/* <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="YouTube to MP3 Converter - Free & High Quality" />
+        <meta name="twitter:description" content="Instantly convert YouTube videos to MP3 or MP4 with no ads. Download high-quality audio or video on any device." />
+        <meta name="twitter:image" content="https://yourwebsite.com/twitter-image.jpg" />
+
+        <link rel="canonical" href="https://yourwebsite.com" /> */}
+      </Head>
 
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-red-50 to-white py-16">
@@ -304,12 +330,19 @@ export default function HomePage() {
               </h2>
 
               <p className="text-gray-700 leading-relaxed mb-6">
-                If you’ve ever searched for ways to download YouTube videos or
-                convert YouTube to audio, you’ve probably noticed most tools are
-                either slow, ad-heavy, or sketchy. This one’s different. It’s a
-                full-featured YouTube audio downloader, MP3 juice download
-                alternative, and video to MP3 converter rolled into a single,
-                browser-based tool. No installs. No accounts. No hidden catches.
+                If you’ve ever searched for ways to{" "}
+                <a
+                  href="https://freevideodownloader.co/youtube-video-downloader"
+                  className="text-blue-600 hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  download YouTube videos
+                </a>{" "}
+                or convert YouTube to audio, you’ve probably noticed most tools are either slow,
+                ad-heavy, or sketchy. This one’s different. It’s a full-featured YouTube audio
+                downloader, MP3 juice download alternative, and video to MP3 converter rolled into
+                a single, browser-based tool. No installs. No accounts. No hidden catches.
               </p>
 
               <p className="text-gray-700 leading-relaxed mb-6">

@@ -12,7 +12,6 @@ import {
 import Image from "next/image"
 import Header from "./components/header"
 import Footer from "./components/footer"
-import Head from "next/head"
 
 interface ConversionResult {
   title: string
@@ -134,47 +133,6 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      <Head>
-        <title>YouTube to MP3 Converter - Fast & Free | YT2MP3CNV</title>
-        <meta name="description" content="Convert YouTube videos to high-quality 320kbps MP3 or MP4 instantly. Free, no ads, and works on all devices including iPhone, Android, PC, and Mac." />
-        <meta name="keywords" content="YouTube to MP3, YouTube MP3 converter, MP3 downloader, YT to MP3, online MP3 converter, free MP3 download, convert YouTube audio, fast MP3 conversion, YouTube songs to MP3, download music from YouTube, YouTube audio converter, YT2MP3CNV" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="robots" content="index, follow" />
-        <meta name="author" content="Yt2Mp3Cnv" />
-        <meta charSet="UTF-8" />
-        <meta
-          name="google-site-verification"
-          content="2oF1wYXzTWUwmwCDX3OVriiAA29mxyXFGKb2grDo_bw"
-        />
-        
-        {/* Open Graph Tags */}
-        {/* <meta property="og:title" content="YouTube to MP3 Converter - Free & High Quality" />
-        <meta property="og:description" content="Instantly convert YouTube videos to MP3 or MP4 with no ads. Download high-quality audio or video on any device." />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://yourwebsite.com" />
-        <meta property="og:image" content="https://yourwebsite.com/og-image.jpg" />
-        <meta property="og:site_name" content="Your Brand Name" /> */}
-
-        {/* Twitter Card Tags */}
-        {/* <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="YouTube to MP3 Converter - Free & High Quality" />
-        <meta name="twitter:description" content="Instantly convert YouTube videos to MP3 or MP4 with no ads. Download high-quality audio or video on any device." />
-        <meta name="twitter:image" content="https://yourwebsite.com/twitter-image.jpg" />
-
-        <link rel="canonical" href="https://yourwebsite.com" /> */}
-
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RLH717E08C"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-RLH717E08C');
-            `,
-          }}
-        />
-      </Head>
 
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-red-50 to-white py-16">

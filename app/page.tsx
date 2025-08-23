@@ -142,6 +142,10 @@ export default function HomePage() {
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Yt2Mp3Cnv" />
         <meta charSet="UTF-8" />
+        <meta
+          name="google-site-verification"
+          content="2oF1wYXzTWUwmwCDX3OVriiAA29mxyXFGKb2grDo_bw"
+        />
         
         {/* Open Graph Tags */}
         {/* <meta property="og:title" content="YouTube to MP3 Converter - Free & High Quality" />

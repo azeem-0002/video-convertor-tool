@@ -12,6 +12,7 @@ import {
 import Image from "next/image"
 import Header from "./components/header"
 import Footer from "./components/footer"
+import Head from "next/head"
 
 interface ConversionResult {
   title: string
@@ -132,6 +133,126 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-white">
+     <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "WebSite",
+                "@id": "https://yt2mp3cnv.com/#website",
+                "url": "https://yt2mp3cnv.com/",
+                "name": "YT2MP3 Converter",
+                "description": "Convert YouTube videos to MP3 or MP4 instantly. Free, fast, safe, and works on all devices.",
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "YT2MP3 Converter",
+                  "url": "https://yt2mp3cnv.com/"
+                }
+              },
+              {
+                "@type": "BreadcrumbList",
+                "@id": "https://yt2mp3cnv.com/#breadcrumb",
+                "itemListElement": [
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://yt2mp3cnv.com/"
+                  }
+                ]
+              },
+              {
+                "@type": "FAQPage",
+                "@id": "https://yt2mp3cnv.com/#faq",
+                "mainEntity": [
+                  {
+                    "@type": "Question",
+                    "name": "Which process is adopted to convert a YouTube video to MP3 on my phone?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "You can convert or change a YouTube video to MP3 on your phone using our browser-based tool. in which you have to Just paste the video link, choose MP3 as your format and download directly to your Android or iPhone in which no app installs needed. It works with single videos, playlists, and even YouTube Shorts."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "By whom can we download YouTube music in high quality?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "For the best sound you have to choose 320kbps MP3 while converting it because this bitrate keeps the full richness of the original audio, avoiding the flat, compressed sound you get from low-quality converters. Our tool lets you adjust quality before downloading so you control file size and clarity."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Can I save audio from YouTube without downloading the video?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes without any tension you can extract just the audio by selecting MP3 as your format as This is considered as ideal for music, podcasts, or lectures when you don’t need the full video file. It is used to protect the storage space that makes playback faster on any device."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Give the process of possibilities to convert YouTube playlists to MP3 in one go?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Our playlist has features that lets you convert an entire YouTube playlist to MP3 with one click. It’s perfect for turning albums, podcast series or study materials into offline files you can listen to anytime that is purely for the sake of ease."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Does your YouTube to MP3 converter work on iPhone and iPad?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes — the tool works directly in Safari or any mobile browser on iOS. You don’t need to install anything; just paste your link, choose your format, and download. Files can be saved to your device or shared to cloud storage."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "How do I download audio from a YouTube Shorts video?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Paste the YouTube Shorts link into the converter, select MP3, and hit download. You’ll get just the audio from the short clip that is considered as great for saving sound bites, remixes, or quick voice snippets."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Can I use this YouTube converter without seeing ads?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Absolutely. The converter runs without pop-ups or banner ads. You can focus on getting your file without clicking through unnecessary pages or dealing with interruptions."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Is there a limit on video length when converting to MP3?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "You can convert videos up to two hours long. This makes it easy to save full DJ sets, webinars, or long interviews without splitting them into multiple parts."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "By whom do I make sure the MP3 download keeps the original sound quality?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "You have to choose the highest available bitrate before downloading, which is fixed at 320kbps is the sweet spot for preserving depth and clarity. Our tool processes the file without adding compression artifacts, so the sound stays true to the source."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Can I download YouTube audio directly to my computer?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Yes — paste the YouTube link into the converter from any desktop browser, pick MP3, and save the file straight to your PC or Mac.You can also choose MP4 if you want the full video."
+                    }
+                  }
+                ]
+              }
+            ]
+          })
+        }}
+      />
       <Header />
 
       {/* Hero Section */}

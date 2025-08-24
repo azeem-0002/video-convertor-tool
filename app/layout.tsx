@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: "YT2MP3CNV",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/og-image.jpeg",
         width: 1200,
         height: 630,
         alt: "YouTube to MP3 Converter preview",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     title: "Convert YouTube to MP3 & MP4 – Free Online Converter",
     description:
       "Download high-quality 320kbps MP3 audio or MP4 videos from YouTube, playlists & Shorts. 100% free, no registration, works on PC, Mac, Android & iPhone.",
-    images: ["/og-image.jpg"],
+    images: ["/og-image.jpeg"],
   },
   alternates: {
     canonical: "https://yt2mp3cnv.com",

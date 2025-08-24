@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: "YT2MP3CNV",
     images: [
       {
-        url: "https://yt2mp3cnv.com/og-image.jpg",
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "YouTube to MP3 Converter preview",
@@ -38,18 +38,18 @@ export const metadata: Metadata = {
     title: "Convert YouTube to MP3 & MP4 – Free Online Converter",
     description:
       "Download high-quality 320kbps MP3 audio or MP4 videos from YouTube, playlists & Shorts. 100% free, no registration, works on PC, Mac, Android & iPhone.",
-    images: ["https://yt2mp3cnv.com/og-image.jpg"],
+    images: ["/og-image.jpg"],
   },
   alternates: {
     canonical: "https://yt2mp3cnv.com",
   },
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "16x16", type: "image/x-icon" },
+      { url: "/favicon.ico" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
     ],
-    apple: [
-    { url: "/favicon.ico", sizes: "180x180", type: "image/x-icon" },
-    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
   },
 }
 

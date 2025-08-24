@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://yt2mp3cnv.com"),
   title: "YouTube to MP3 Converter - Fast & Free | YT2MP3CNV",
   description:
     "Convert YouTube videos to high-quality 320kbps MP3 or MP4 instantly. Free, no ads, and works on all devices including iPhone, Android, PC, and Mac.",

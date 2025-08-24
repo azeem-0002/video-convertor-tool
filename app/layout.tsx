@@ -17,31 +17,39 @@ export const metadata: Metadata = {
   verification: {
     google: "2oF1wYXzTWUwmwCDX3OVriiAA29mxyXFGKb2grDo_bw", // ✅ Search Console verification
   },
-  // openGraph: {
-  //   title: "YouTube to MP3 Converter - Free & High Quality",
-  //   description:
-  //     "Instantly convert YouTube videos to MP3 or MP4 with no ads. Download high-quality audio or video on any device.",
-  //   type: "website",
-  //   url: "https://yt2mp3cnv.com",
-  //   siteName: "YT2MP3CNV",
-  //   images: [
-  //     {
-  //       url: "https://yt2mp3cnv.com/og-image.jpg",
-  //       width: 1200,
-  //       height: 630,
-  //       alt: "YouTube to MP3 Converter preview",
-  //     },
-  //   ],
-  // },
-  // twitter: {
-  //   card: "summary_large_image",
-  //   title: "YouTube to MP3 Converter - Free & High Quality",
-  //   description:
-  //     "Instantly convert YouTube videos to MP3 or MP4 with no ads. Download high-quality audio or video on any device.",
-  //   images: ["https://yt2mp3cnv.com/twitter-image.jpg"],
-  // },
+  openGraph: {
+    title: "Convert YouTube to MP3 & MP4 – Free Online Converter",
+    description:
+      "Download high-quality 320kbps MP3 audio or MP4 videos from YouTube, playlists & Shorts. 100% free, no registration, works on PC, Mac, Android & iPhone.",
+    type: "website",
+    url: "https://yt2mp3cnv.com",
+    siteName: "YT2MP3CNV",
+    images: [
+      {
+        url: "https://yt2mp3cnv.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "YouTube to MP3 Converter preview",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Convert YouTube to MP3 & MP4 – Free Online Converter",
+    description:
+      "Download high-quality 320kbps MP3 audio or MP4 videos from YouTube, playlists & Shorts. 100% free, no registration, works on PC, Mac, Android & iPhone.",
+    images: ["https://yt2mp3cnv.com/og-image.jpg"],
+  },
   alternates: {
     canonical: "https://yt2mp3cnv.com",
+  },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "16x16", type: "image/x-icon" },
+    ],
+    apple: [
+    { url: "/favicon.ico", sizes: "180x180", type: "image/x-icon" },
+    ],
   },
 }
 

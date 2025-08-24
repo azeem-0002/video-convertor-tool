@@ -435,21 +435,22 @@ export default function HomePage() {
                   download YouTube videos
                 </a>{" "}
                 or convert YouTube to audio, you’ve probably noticed most tools are either slow,
-                ad-heavy, or sketchy. This one’s different. It’s a full-featured YouTube audio
-                downloader, MP3 juice download alternative, and video to MP3 converter rolled into
+                ad-heavy or sketchy. This one’s different. It’s a full-featured YouTube audio
+                downloader, MP3 juice download alternative and video to MP3 converter rolled into
                 a single, browser-based tool. No installs. No accounts. No hidden catches.
+                Think of it as a modern SaveFrom-style solution, but faster and with cleaner results.
               </p>
 
               <p className="text-gray-700 leading-relaxed mb-6">
                 You can use it like a YouTube audio extractor to save live
-                concerts, DJ sets, podcasts, or lectures as crystal clear audio.
+                concerts, DJ sets, podcasts or lectures as crystal clear audio.
                 Or treat it like a ClipConverter replacement to quickly grab
                 entire videos. Want only the music? Switch formats instantly
                 with the MP4 to MP3 converter or convert video to MP3 to keep
                 file sizes small without losing sound quality. For pure
                 listening, it doubles as a free MP3 music download service —
                 perfect for building an offline library of trending singles,
-                rare live tracks, or custom playlists.
+                rare live tracks or custom playlists.
               </p>
 
               <p className="text-gray-700 leading-relaxed mb-6">
@@ -467,7 +468,7 @@ export default function HomePage() {
                 MP3 or MP4 and click the download button. Behind the scenes, the
                 tool processes your video file in seconds and delivers a clean,
                 ready to use result — no compression artifacts, no watermarks
-                and no waiting around. It works on PC, Mac, Android, and iOS, so
+                and no waiting around. It works on PC, Mac, Android and iOS, so
                 you can download MP3 from YouTube on any device you have handy.
               </p>
 
@@ -477,8 +478,8 @@ export default function HomePage() {
                 high-bitrate files. That’s why it’s a favorite for anyone who
                 wants the convenience of downloading YouTube music without
                 sacrificing how it sounds. Whether you’re pulling a soundtrack
-                from a film review, saving an interview, or turning an entire
-                album into portable tracks, it’s built for speed, safety, and
+                from a film review, saving an interview or turning an entire
+                album into portable tracks, it’s built for speed, safety and
                 consistent quality.
               </p>
               <p className="text-gray-700 leading-relaxed mb-0">
@@ -493,7 +494,7 @@ export default function HomePage() {
               <br />
               <p className="text-gray-700 leading-relaxed mb-0">
                 No matter how you use it. as a YouTube to MP3 downloader, a
-                video to audio converter, or a download YouTube music shortcut.
+                video to audio converter or a download YouTube music shortcut.
                 The goal stays the same: give you fast results you can trust,
                 with files that sound just as good offline as they did when you
                 found them.

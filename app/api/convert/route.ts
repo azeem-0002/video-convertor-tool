@@ -29,23 +29,23 @@ export async function POST(request: NextRequest) {
     })
 
     const apiData = await response.json()
+    const data = apiData?.data?.data ? apiData.data.data : apiData.data
 
     // Validate structure and return correct nested data
     if (
       apiData.success &&
-      apiData.data &&
-      apiData.data.data &&
-      apiData.data.data.mp3 &&
-      apiData.data.data.mp4
+      data &&
+      data?.mp3 &&
+      data?.mp4
     ) {
       return NextResponse.json({
         success: true,
         data: {
-          title: apiData.data.data.title,
-          thumbnail: apiData.data.data.thumbnail,
-          author: apiData.data.data.author,
-          mp3: apiData.data.data.mp3,
-          mp4: apiData.data.data.mp4,
+          title: data?.title,
+          thumbnail: data?.thumbnail,
+          author: data?.author,
+          mp3: data?.mp3,
+          mp4: data?.mp4,
         },
       })
     } else {
